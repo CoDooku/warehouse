@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>warehouse</id>
+    <name>Ware House</name>
+    <summary>App for warehouse maintenance</summary>
+    <description><![CDATA[App for keeping stock records]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="slit8809@yandex.ru" >Sergey</author>
+    <namespace>WareHouse</namespace>
+    <category>organization</category>
+    <bugs>https://github.com/CoDooku/warehouse/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Ware House</name>
+            <route>warehouse.page.index</route>
+        </navigation>
+    </navigations>
+</info>

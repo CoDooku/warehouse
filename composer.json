@@ -1,0 +1,15 @@
+{
+    "name": "Ware House",
+    "description": "App for warehouse maintenance",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Sergey"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
